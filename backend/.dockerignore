@@ -1,0 +1,24 @@
+# Entornos virtuales.
+venv/
+.venv/
+env/
+
+# Archivos de compilacion generados por Python.
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno local.
+.env
+
+# Archivos y directorios de VS Code y Git.
+.vscode/
+.git/
+.gitignore
+
+# Archivos de documentacion.
+README.md
+
+# Cache de Ruff
+.ruff_cache

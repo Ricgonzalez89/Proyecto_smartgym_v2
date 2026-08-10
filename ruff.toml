@@ -1,0 +1,5 @@
+[lint]
+
+# Ignorar la ordenacion de importaciones para no afectar la legibilidad entre las importaciones
+# de modulos de terceros y de modulos propios del sistema.
+ignore = ["I001"]
