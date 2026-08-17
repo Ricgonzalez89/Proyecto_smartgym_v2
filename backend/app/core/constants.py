@@ -52,6 +52,7 @@ class Actividad_Membresia_Enum(str, Enum):
     ACTIVA = "Activa"
     VENCIDA = "Vencida"
     POR_VENCER = "Por vencer"
+    INACTIVA = "Inactiva"
 
 
 class Descripcion_Pago_Enum(str, Enum):
@@ -61,3 +62,13 @@ class Descripcion_Pago_Enum(str, Enum):
 
     ADQUISICION = "Adquision de plan"
     RENOVACION = "Renovacion de plan"
+
+
+class Categoria_Producto_Enum(str, Enum):
+    """
+    Enumeracion de las categorias existentes de productos.
+    """
+
+    VESTIMENTA = "Vestimenta"
+    ACCESORIOS = "Accesorios"
+    SUPLEMENTOS = "Suplementos"
